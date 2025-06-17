@@ -12,15 +12,6 @@
     <name>${project.artifactId}</name>
     <description>${project.name}</description>
 
-    <scm>
-        <connection>scm:git:git@git.corp.kuaishou.com:plateco-dev/kwaishop-platform/trade/kwaishop-infra.git
-        </connection>
-        <developerConnection>scm:git:git@git.corp.kuaishou.com:plateco-dev/kwaishop-platform/trade/kwaishop-infra.git
-        </developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
-
     <properties>
         <revision>1.0.7-SNAPSHOT</revision>
     </properties>
