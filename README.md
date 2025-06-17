@@ -7,4 +7,5 @@
 · 🛠️ 可维护——流式编程&声明式指令
 
 该框架采用流式编程风格，简化非核心业务逻辑：省去 try-catch、日志记录、打点监控等繁琐操作，简化异常、失败处理和手动降级流程，使代码简洁直观，逻辑清晰明了。
-详细用法：https://github.com/kwai/kwai-invoker/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C
+
+使用手册：https://github.com/kwai/kwai-invoker/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C
