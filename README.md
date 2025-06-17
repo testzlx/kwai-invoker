@@ -9,3 +9,5 @@
 该框架采用流式编程风格，简化非核心业务逻辑：省去 try-catch、日志记录、打点监控等繁琐操作，简化异常、失败处理和手动降级流程，使代码简洁直观，逻辑清晰明了。
 
 使用手册：https://github.com/kwai/kwai-invoker/wiki/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C
+![image](https://github.com/user-attachments/assets/6bdcc215-4f45-42da-9fe2-31a1be1e202e)
+
