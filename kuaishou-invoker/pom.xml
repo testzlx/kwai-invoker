@@ -6,7 +6,7 @@
     <parent>
         <artifactId>kwaishop-infra</artifactId>
         <groupId>kuaishou</groupId>
-        <version>${revision}</version>
+        <version>1.0.7-SNAPSHOT</version>
     </parent>
 
     <artifactId>kuaishou-invoker</artifactId>
