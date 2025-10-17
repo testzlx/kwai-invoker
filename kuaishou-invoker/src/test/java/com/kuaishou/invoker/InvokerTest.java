@@ -32,6 +32,10 @@ public class InvokerTest {
             throw new RuntimeException("异常");
         }
 
+        int testMethod1(String arg) {
+            return -1;
+        }
+
         String testMethod2(String arg) {
             return "1";
         }
@@ -167,13 +171,13 @@ public class InvokerTest {
     @Test
     public void testProcessor() {
         TestClass instance = new TestClass();
-        String value = Invoker.call(instance, f -> f.testMethod("arg"))
+        int value = Invoker.call(instance, f -> f.testMethod1("arg"))
                 .desc(CallType.GRPC, "测试方法A")
-                .processor(res -> res + "1")
+                .processor(res -> res + 1)
                 .whenResultFail(res -> res == 2)
                 .thenThrow(res -> new RuntimeException("throw"))
                 .whenResultFail(res -> res >= 1)
-                .thenReturn(res -> "222")
+                .thenReturn(res -> 222)
                 .getReturnValue();
         System.out.println(value);
     }
